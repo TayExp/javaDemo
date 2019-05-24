@@ -1,0 +1,35 @@
+
+public class Person {
+	
+	private String name;
+	private int age;
+	
+	public Person(){
+		this("Unnamed", 20);
+	}
+	public Person(String name, int age) {
+		this.name = name;
+		this.setAge(age);
+	}
+	public String getName(){
+		return this.name;
+	}
+	public void setName(String name){
+		this.name = name;
+	}
+	public void setName(String firstName, String lastName){
+		this.name = firstName + " " + lastName;
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public void run(){
+		System.out.println(name + " is running.");
+	}
+
+}

@@ -1,0 +1,23 @@
+package ithmTest;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+/*
+ * 	异常的处理方式：
+
+ * 		
+ * 
+ *  jvm处理异常的方式：
+ *  	如果出现异常我们没有处理，jvm会帮我们进行处理，他会把异常的类型，原因还有位置显示在命令行
+ *  	并且还终止了程序，异常后面的代码将不在执行
+ */
+public class ExceptionDemo2 {
+	public static void main(String[] args) throws Exception {
+	   System.out.println(2/0);
+	   System.out.println("hello");
+     		
+	}
+	
+ 
+}

@@ -1,0 +1,15 @@
+package ithmTest;
+
+public class Test4 {
+	public static void Main(String[] args){
+		//生兔子问题
+		int[] arr = new int[20];
+		arr[0] = 1;
+		arr[1] = 1;
+		for(int x=2; x<arr.length; x++){
+			arr[x] = arr[x-1] + arr[x-2];
+		}
+		System.out.println("第十二个月" + arr[19]);
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Sutdent extends Person {
+
+	private int score;
+	
+	
+	
+	public Sutdent() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+}

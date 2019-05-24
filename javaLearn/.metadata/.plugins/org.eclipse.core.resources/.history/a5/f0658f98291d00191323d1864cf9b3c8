@@ -1,0 +1,19 @@
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		// 打印5位数中的所有回文数
+		for(int x = 10000; x<100000; x++){
+			int ge = x % 10;
+			int shi = x/10%10;
+			int bai = x/100%10;
+			int qian = x/1000%10;
+			int wan = x/10000%10;
+			if ((ge == wan) && (shi == qian)){
+				System.out.println(x);
+			}
+		}
+
+	}
+
+}

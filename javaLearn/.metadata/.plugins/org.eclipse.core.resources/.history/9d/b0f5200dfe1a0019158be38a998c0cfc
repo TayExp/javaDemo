@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Person ming = new Person("xiaoming", 20);
+		System.out.println(ming.getName());
+		
+		Person hong = new Person("xiaohong", 12);
+		System.out.println(hong.getName());
+		
+		Person unnamed = new Person();
+		System.out.println(unnamed.getName());
+
+
+	}
+
+}

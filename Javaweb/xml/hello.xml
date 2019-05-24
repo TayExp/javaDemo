@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- bean标签 -->
+	<bean id="a" class="a">
+		id为a
+	</bean>
+	<bean>
+		没有任何属性
+	</bean>
+	<bean>
+		html中的&lt;a&gt;标签
+		<![CDATA[
+			<img>标签,<table>等标签 表单标签<input> 
+		]]>
+	</bean>
+</beans>

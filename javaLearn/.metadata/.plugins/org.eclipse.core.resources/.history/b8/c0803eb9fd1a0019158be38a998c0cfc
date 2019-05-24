@@ -1,0 +1,22 @@
+
+public class Sutdent extends Person {
+
+	public Sutdent(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+	private int score;
+
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public String hello(){
+		return "Hello, " + this.name;
+	}
+
+}

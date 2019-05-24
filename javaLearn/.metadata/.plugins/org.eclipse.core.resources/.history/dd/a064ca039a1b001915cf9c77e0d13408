@@ -1,0 +1,11 @@
+
+public class ShapeUtil {
+
+	public ShapeUtil() {
+		// TODO Auto-generated constructor stub
+	}
+	public double sum(Shape[] shapes){
+		double s = 0;
+	}
+
+}
